@@ -121,3 +121,7 @@ p.card-text-emoji {
 p .text-muted {
   font-size: 1px;
 }
+
+p.footer {
+  text-align: center;
+}

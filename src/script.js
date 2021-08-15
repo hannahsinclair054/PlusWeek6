@@ -62,6 +62,12 @@ function showTemperature(response) {
   document.querySelector("#todayTemp").innerHTML = Math.round(
     response.data.main.temp
   );
+  document.querySelector("#humid").innerHTML = response.data.main.humidity;
+  document.querySelector("#wind").innerHTML = Math.round(
+    response.data.wind.speed
+  );
+  document.querySelector("#description").innerHTML =
+    response.data.weather[0].main;
 }
 
 //search for cities
