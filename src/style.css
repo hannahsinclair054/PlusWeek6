@@ -5,7 +5,7 @@
   border-radius: 12px;
   background-color: #fff;
   border: 1px solid rgb(199, 199, 199);
-  box-shadow: 1px 1px 1px 1px rgb(199, 199, 199);
+  box-shadow: 0 0 20px rgb(199, 199, 199);
 }
 
 section.main {
@@ -125,4 +125,8 @@ p .text-muted {
 p.footer {
   text-align: center;
   font-size: 14px;
+}
+
+body {
+  background-image: url("clear\ skies.jpg");
 }
